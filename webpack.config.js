@@ -25,9 +25,6 @@ const appHtmlTitle = 'Adam\'s Webpack Boilerplate';
  */
 module.exports = {
     entry: {
-        vendor: [
-            'lodash'
-        ],
         main: path.join(dirSrc, 'index')
     },
     resolve: {
@@ -51,7 +48,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: IS_DEV ? '[name].css' : '[name].[hash].css',
-            chunkFilename: IS_DEV ? '[id].css' : '[id].[hash].css',
+            chunkFilename: IS_DEV ? '[id].css' : '[id].[hash].css'
         }),
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.html'),

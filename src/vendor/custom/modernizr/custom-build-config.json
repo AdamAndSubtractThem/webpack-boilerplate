@@ -1,0 +1,32 @@
+{
+  "minify": true,
+  "options": [
+    "mq",
+    "html5printshiv",
+    "html5shiv",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/css/animations",
+    "test/css/backgroundsize",
+    "test/css/backgroundsizecover",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/columns",
+    "test/css/cssgrid",
+    "test/css/flexbox",
+    "test/css/gradients",
+    "test/css/lastchild",
+    "test/css/nthchild",
+    "test/css/opacity",
+    "test/css/positionsticky",
+    "test/css/rgba",
+    "test/css/supports",
+    "test/css/transforms",
+    "test/css/transforms3d",
+    "test/css/transitions",
+    "test/css/vhunit",
+    "test/css/vwunit",
+    "test/svg/asimg"
+  ]
+}
