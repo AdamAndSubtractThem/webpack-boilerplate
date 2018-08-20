@@ -4,8 +4,6 @@ Webpack 4 Boilerplate
 [![Dependency Status](https://david-dm.org/AdamAndSubtractThem/webpack-boilerplate.svg)](https://david-dm.org/AdamAndSubtractThem/webpack-boilerplate) 
 [![devDependency Status](https://david-dm.org/AdamAndSubtractThem/webpack-boilerplate/dev-status.svg)](https://david-dm.org/AdamAndSubtractThem/webpack-boilerplate)
 
-> Plain webpack 4 boilerplate with Babel, SASS and lodash on board
-
 ## Requirements
 You only need <b>node.js</b> pre-installed and you’re good to go. 
 
